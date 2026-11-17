@@ -1,14 +1,44 @@
-# ITE130 – Vibe Coding & Webbutveckling (MDU)
+# ITE130 – Interaktiva användargränssnitt (MDU)
 
-Välkommen till projektet för kursen **ITE130** vid **Mälardalens universitet (MDU)**! Denna uppgift går ut på att utforska *vibe coding* med hjälp av AI-verktyg (som GitHub Copilot) för att snabbt bygga, styla och strukturera en modern webbsida anpassad för studenter.
+Det här projektet innehåller en webbsida framtagen som en övning i *vibe coding* för kursen **ITE130** vid **Mälardalens universitet (MDU)**. Kursens officiella namn är **Interaktiva användargränssnitt**. Webbsidesuppgiften är ett sätt att öva på att skapa ett digitalt gränssnitt och ska inte ses som en fullständig beskrivning av kursens innehåll.
+
+## Om kursen
+
+Uppgifterna nedan om kursens omfattning, innehåll och examination sammanfattar MDU:s officiella kursplan. Kursplanen gäller från och med **höstterminen 2026**.
+
+| Kursfakta | Information |
+| :--- | :--- |
+| **Kurskod och namn** | ITE130 – Interaktiva användargränssnitt |
+| **Omfattning** | 15 hp |
+| **Nivå** | Grundnivå, G1N |
+| **Huvudområde** | Informationsdesign |
+| **Institution** | Institutionen för hälsovetenskap, innovation och design |
+| **Behörighet** | Grundläggande behörighet samt Engelska 6 och Samhällskunskap 1b eller 1a1+1a2. Alternativt Engelska nivå 2 och Samhällskunskap nivå 1b eller 1a2. |
+
+Kursen behandlar digitala system och gränssnitt, interaktionsdesign samt hur gränssnitt och system relaterar till användare och sammanhang. Studenter arbetar med teorier, verktyg och metoder för att planera och skapa prototyper av interaktiva system, med visuella användargränssnitt i fokus. Även samspelet mellan mänskliga, tekniska och samhälleliga aspekter ingår.
+
+Efter kursen ska studenten bland annat kunna redogöra för digitala systems uppbyggnad i relation till funktion, användare och kontext, beskriva funktioners logik och samband, utforma visuella gränssnitt med stöd av interaktionsdesignteori, använda praktiska verktyg inom interaktionsdesign och beskriva digitala systems samspel med mänskliga, tekniska och samhälleliga aspekter.
+
+### Examination och betyg
+
+| Moment | Omfattning | Betygsskala |
+| :--- | :--- | :--- |
+| Inlämningsuppgift (INL1) | 3 hp | U, G, VG |
+| Inlämningsuppgift (INL2) | 4,5 hp | U, G, VG |
+| Laboration (LAB1) | 4,5 hp | U, G |
+| Projekt (PRO1) | 3 hp | U, G |
+
+Kursens samlade betygsskala är **Underkänd (U), Godkänd (G) och Väl godkänd (VG)**. Kursen överlappar 7,5 hp med ITE200 Digitala system.
+
+Läs hela [den officiella kursplanen på MDU:s webbplats](https://www.mdu.se/utbildning/kursplan?id=68f1a521-c9d1-11f0-a255-650837bd40cf) för fullständiga lärandemål, villkor och aktuell kurslitteratur.
 
 ## 🎯 Uppgiftsbeskrivning & Steg
 
-Följ stegen nedan för att genomföra laborationen/uppgiften:
+Följ stegen nedan för att genomföra webbsidesövningen. Övningen använder vibe coding och webbutveckling som ett praktiskt sätt att utforska hur ett digitalt gränssnitt kan utformas.
 
 ### 1. Grundläggande webbsida med Vibe Coding
 
-* Skapa en första prototyp av en webbsida riktad till studenter som läser kursen **ITE130** på MDU.
+* Skapa en första prototyp av en webbsida riktad till studenter som läser **Interaktiva användargränssnitt (ITE130)** på MDU.
 
 * Använd AI-prompter (*vibe coding*) för att generera grundstrukturen i HTML.
 
@@ -28,7 +58,7 @@ Följ stegen nedan för att genomföra laborationen/uppgiften:
 
 * Låt GitHub Copilot (eller liknande AI-assistent) generera en inspirerande sektion eller ett citatblock under rubriken **"En student berättar"**.
 
-* Texten ska spegla hur det är att plugga på MDU och läsa ITE130.
+* Texten ska vara ett fiktivt, AI-genererat exempel och spegla studentperspektiv på att utforska gränssnitt och interaktionsdesign i ITE130. Presentera det inte som ett verifierat studentomdöme.
 
 ### 5. MDU-färgtema
 

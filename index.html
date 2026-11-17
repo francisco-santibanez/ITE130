@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="En introduktion till ITE130 Interaktiva användargränssnitt vid Mälardalens universitet.">
+  <title>ITE130 — Interaktiva användargränssnitt | MDU</title>
+
+  <!-- Bootstrap 4.6 ger sidan ett responsivt rutnät och färdiga komponenter. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigeringen fälls ihop till en meny på mindre skärmar. -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+    <div class="container">
+      <a class="navbar-brand" href="#start" aria-label="ITE130, till startsidan">
+        <span class="brand-mark">I</span>
+        <span>ITE<span class="brand-number">130</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation"
+        aria-controls="mainNavigation" aria-expanded="false" aria-label="Visa eller dölj menyn">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="#kursen">Kursen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#studentberattelse">Studentberättelse</a></li>
+          <li class="nav-item"><a class="nav-link" href="#git">Git i korthet</a></li>
+          <li class="nav-item ml-lg-3"><a class="btn btn-nav" href="#kom-igang">Kom igång <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero-sektionen presenterar kursen och leder vidare till innehållet. -->
+    <header class="hero" id="start">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="eyebrow-dot"></span> INTERAKTIVA ANVÄNDARGRÄNSSNITT · 15 HP</p>
+            <h1>Utforma digitala upplevelser med <span>människan i fokus.</span></h1>
+            <p class="hero-copy">Utforska hur digitala system, människor och sammanhang möts. I ITE130 får du arbeta med interaktionsdesign och visuella gränssnitt.</p>
+            <a class="btn btn-orange btn-lg" href="#kursen">Upptäck kursen <span aria-hidden="true">↓</span></a>
+            <span class="hero-note">Grundnivå · Informationsdesign · Höstterminen 2026</span>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art" aria-hidden="true">
+              <div class="art-label">EN PROTOTYP TAR FORM</div>
+              <div class="art-window">
+                <div class="window-top"><i></i><i></i><i></i><span>gränssnitt · prototyp</span></div>
+                <div class="prototype-body">
+                  <p class="prototype-caption">DIN IDÉ, I ANVÄNDARENS KONTEXT</p>
+                  <p class="prototype-heading">En tydlig<br>upplevelse.</p>
+                  <div class="prototype-row"><i></i><span>En funktion</span></div>
+                  <div class="prototype-row prototype-row-short"><i></i><span>En användare</span></div>
+                  <div class="prototype-action">Testa prototypen <span>↗</span></div>
+                </div>
+              </div>
+              <div class="art-sticker">MÄNNISKA<br>FUNKTION<br>KONTEXT<span>✳</span></div>
+              <div class="art-sparkle sparkle-one">✳</div>
+              <div class="art-sparkle sparkle-two">✳</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottom">
+          <span>ITE130 · MÄLARDALENS UNIVERSITET</span>
+          <span class="scroll-hint">Scrolla för att utforska <span aria-hidden="true">↓</span></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Tre kort ger en snabb överblick över kursens centrala delar. -->
+    <section class="section-pad" id="kursen">
+      <div class="container">
+        <div class="section-heading row align-items-end">
+          <div class="col-md-8">
+            <p class="eyebrow eyebrow-dark">KURSENS FOKUS</p>
+            <h2>Förstå helheten.<br>Utforma <span>upplevelsen.</span></h2>
+          </div>
+          <div class="col-md-4">
+            <p class="section-intro">Kursen förenar teori och praktiskt arbete med interaktiva system, gränssnitt och prototyper.</p>
+            <a class="source-link" href="https://www.mdu.se/utbildning/kursplan?id=68f1a521-c9d1-11f0-a255-650837bd40cf" target="_blank" rel="noopener noreferrer">Läs den officiella kursplanen <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="row feature-row">
+          <div class="col-md-4">
+            <article class="feature-card">
+              <div class="feature-icon icon-peach" aria-hidden="true">01</div>
+              <p class="card-kicker">FÖRSTÅ</p>
+              <h3>Digitala system i sitt sammanhang</h3>
+              <p>Se hur systemets funktioner hänger ihop med användare, teknik och den situation där det används.</p>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="feature-card">
+              <div class="feature-icon icon-green" aria-hidden="true">02</div>
+              <p class="card-kicker">UTFORMA</p>
+              <h3>Interaktion och gränssnitt</h3>
+              <p>Utforska hur visuella gränssnitt kan utformas med stöd av relevanta teorier inom interaktionsdesign.</p>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+          <div class="col-md-4">
+            <article class="feature-card">
+              <div class="feature-icon icon-yellow" aria-hidden="true">03</div>
+              <p class="card-kicker">PROTOTYPER</p>
+              <h3>Från idé till interaktivt system</h3>
+              <p>Planera och skapa prototyper med praktiska verktyg och metoder för interaktionsdesign.</p>
+              <span class="card-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Citatet är ett inspirerande exempel, inte ett verifierat studentomdöme. -->
+    <section class="story-section" id="studentberattelse">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="story-art" aria-hidden="true">
+              <span class="story-orbit orbit-one"></span>
+              <span class="story-orbit orbit-two"></span>
+              <span class="story-star">✳</span>
+              <span class="story-note">FUNKTION<br>ANVÄNDARE<br>KONTEXT</span>
+              <span class="story-scribble">&lt;/&gt;</span>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <p class="eyebrow">ETT ILLUSTRATIVT STUDENTPERSPEKTIV</p>
+            <h2 class="story-title">En student<br>berättar</h2>
+            <blockquote>
+              <p>“Det blev tydligt att ett gränssnitt inte bara handlar om hur det ser ut. Jag började fundera på vem som ska använda det, vad personen behöver göra och hur hela systemet fungerar runt omkring.”</p>
+              <footer>
+                <span class="quote-avatar" aria-hidden="true">S</span>
+                <span><strong>En ITE130-student</strong><small>Fiktivt, AI-genererat exempel – inte ett verifierat omdöme</small></span>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Git presenteras som ett möjligt stöd i projektarbetet, inte som ett kursplanskrav. -->
+    <section class="section-pad git-section" id="git">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <p class="eyebrow eyebrow-dark">ETT VERKTYG I PROJEKTARBETET</p>
+            <h2>Håll koll på<br>dina <span>prototyper.</span></h2>
+            <p class="git-intro">När du arbetar med ett digitalt gränssnitt kan Git hjälpa dig att spara ändringar och följa hur din prototyp utvecklas.</p>
+            <a class="text-link" href="#kom-igang">Planera ditt första steg <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="col-lg-7">
+            <div class="git-card">
+              <div class="git-card-top">
+                <span class="git-symbol" aria-hidden="true">⌘</span>
+                <div><p class="card-kicker">SNABBFAKTA</p><h3>Git, steg för steg</h3></div>
+                <span class="git-branch" aria-hidden="true">⑂ main</span>
+              </div>
+              <div class="git-step">
+                <span class="step-number">01</span>
+                <div><h4>Ändra</h4><p>Redigera filer och skapa något nytt.</p></div>
+                <code>working tree</code>
+              </div>
+              <div class="git-step">
+                <span class="step-number">02</span>
+                <div><h4>Förbered</h4><p>Välj vilka ändringar som ska sparas.</p></div>
+                <code>git add</code>
+              </div>
+              <div class="git-step">
+                <span class="step-number">03</span>
+                <div><h4>Spara en version</h4><p>Beskriv ändringen i en commit.</p></div>
+                <code>git commit</code>
+              </div>
+              <div class="git-tip"><span aria-hidden="true">✳</span> En commit är en sparad ögonblicksbild av ditt arbete.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Checklistan kopplar kursens perspektiv till konkreta första steg. -->
+    <section class="checklist-section" id="kom-igang">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <p class="eyebrow">FRÅN KURSIDÉ TILL PRAKTIK</p>
+            <h2>Börja med<br><span>sammanhanget.</span></h2>
+            <p class="checklist-intro">Använd checklistan som en enkel tankestart när du utforskar och skissar på ett digitalt gränssnitt.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="checklist-card">
+              <div class="checklist-header">
+                <strong>Min gränssnittsidé</strong>
+                <span id="progress-label" aria-live="polite">0 av 3 klara</span>
+              </div>
+              <div class="progress" role="progressbar" aria-label="Framsteg i checklistan" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+              </div>
+              <label class="check-item"><input type="checkbox" class="check-input"><span class="custom-check" aria-hidden="true"></span><span>Beskriv systemets sammanhang</span><span class="check-detail">Vad ska det göra?</span></label>
+              <label class="check-item"><input type="checkbox" class="check-input"><span class="custom-check" aria-hidden="true"></span><span>Identifiera användare och behov</span><span class="check-detail">För vem utformas det?</span></label>
+              <label class="check-item"><input type="checkbox" class="check-input"><span class="custom-check" aria-hidden="true"></span><span>Skissa en interaktiv prototyp</span><span class="check-detail">Testa en idé</span></label>
+              <p class="checklist-footer"><span aria-hidden="true">✳</span> <span id="checklist-message" aria-live="polite">Små framsteg räknas också.</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-md-center">
+      <a class="footer-brand" href="#start">ITE<span>130</span> <small>· Mälardalens universitet</small></a>
+      <p>ITE130 · Interaktiva användargränssnitt <span aria-hidden="true">✳</span></p>
+      <a class="back-top" href="#start">Till toppen ↑</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 4.6 behöver jQuery och Popper för bland annat den mobila menyn. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
